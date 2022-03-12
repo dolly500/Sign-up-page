@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: 'Raleway', 'sans-serif';
+    background-image: url(formback.jpg);
+    color: #fff;
+    line-height: 1.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container{
+    margin: 25px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.form-wrap{
+    background-color: #fff;
+    padding: 15px 25px;
+    color: #333;
+    border-radius: 8px;
+}
+
+.form-wrap h1
+.form-wrap p{
+    text-align: center;
+}
+
+.form-wrap .form-group{
+    margin-top: 15px;
+}
+
+.form-wrap .form-group label{
+    display: block;
+    color: #666;
+}
+
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-wrap button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #49c1a2;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-wrap button:hover{
+    background: #37a08e;
+}
+.form-wrap .bottom-text a{
+    text-decoration: none;
+}
+.form-wrap .bottom-text{
+    font-size: 13px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: #49c1a2;
+    text-decoration: none;
+}
